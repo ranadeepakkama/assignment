@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <div class="main-header-container">
+            <hr/>
+            <h1 class="main-header">YAY! It's BOGO</h1>
+        </div>
+       
+        <form>
+            <div class="container-box">
+                <label class="box">
+                    <div class="price-cart">
+                        <input type="radio" name="choice" class="expand" onclick="toggleContainer(this)"> 
+                        <div>
+                            <h4>1 Unit <span>10% Off</span></h4>
+                            <p>Standard Price</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>$10.00 USD</h4>
+                        <p class="strike-price">$24.00 USD</p>
+                    </div>
+                </label>
+                <div class="container hidden">
+                    <div class="size-color-container">
+                        <div class="size-container">
+                            <p class="header">Size</p>
+                            <ul>
+                                <li class="list">
+                                    <p>#1</p>
+                                    <select id="options">
+                                        <option value="option1">S</option>
+                                        <option value="option2">M</option>
+                                        <option value="option3">L</option>
+                                    </select>
+                                </li>
+                                <li class="list">
+                                    <p>#2</p>
+                                    <select id="options">
+                                        <option value="option1">S</option>
+                                        <option value="option2">M</option>
+                                        <option value="option3">L</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="size-container">
+                            <p class="header">Color</p>
+                            <ul>
+                                <li class="list">
+                                    <p>#1</p>
+                                    <select id="options">
+                                        <option value="option1">Color</option>
+                                        <option value="option2">black</option>
+                                        <option value="option3">White</option>
+                                    </select>
+                                </li>
+                                <li class="list">
+                                    <p>#2</p>
+                                    <select id="options">
+                                        <option value="option1">Color</option>
+                                        <option value="option2">black</option>
+                                        <option value="option3">White</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <br/>
+            
+            <div class="container-box parent-card">
+                <p class="child-card">MOST POPULAR</p>
+                <label class="box">
+                    <div class="price-cart">
+                        <input type="radio" name="choice" class="expand" onclick="toggleContainer(this)"> 
+                        <div>
+                            <h4>2 Unit <span>20% Off</span></h4>
+                            <p>Standard Price</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>$18.00 USD</h4>
+                        <p class="strike-price">$24.00 USD</p>
+                    </div>
+                </label>
+                <div class="container hidden">
+                    <div class="size-color-container">
+                        <div class="size-container">
+                            <p class="header">Size</p>
+                            <ul>
+                                <li class="list">
+                                    <p>#1</p>
+                                    <select id="options">
+                                        <option value="option1">S</option>
+                                        <option value="option2">M</option>
+                                        <option value="option3">L</option>
+                                    </select>
+                                </li>
+                                <li class="list">
+                                    <p>#2</p>
+                                    <select id="options">
+                                        <option value="option1">S</option>
+                                        <option value="option2">M</option>
+                                        <option value="option3">L</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="size-container">
+                            <p class="header">Color</p>
+                            <ul>
+                                <li class="list">
+                                    <p>#1</p>
+                                    <select id="options">
+                                        <option value="option1">Color</option>
+                                        <option value="option2">black</option>
+                                        <option value="option3">White</option>
+                                    </select>
+                                </li>
+                                <li class="list">
+                                    <p>#2</p>
+                                    <select id="options">
+                                        <option value="option1">Color</option>
+                                        <option value="option2">black</option>
+                                        <option value="option3">White</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <br/>
+
+            <div class="container-box">
+                <label class="box">
+                    <div class="price-cart">
+                        <input type="radio" name="choice" class="expand" onclick="toggleContainer(this)"> 
+                        <div>
+                            <h4>3 Unit <span>30% Off</span></h4>
+                            <p>Standard Price</p>
+                        </div>
+                    </div>
+                    <div>
+                        <h4>$28.00 USD</h4>
+                        <p class="strike-price">$24.00 USD</p>
+                    </div>
+                </label>
+                <div class="container hidden">
+                    <div class="size-color-container">
+                        <div class="size-container">
+                            <p class="header">Size</p>
+                            <ul>
+                                <li class="list">
+                                    <p>#1</p>
+                                    <select id="options">
+                                        <option value="option1">S</option>
+                                        <option value="option2">M</option>
+                                        <option value="option3">L</option>
+                                    </select>
+                                </li>
+                                <li class="list">
+                                    <p>#2</p>
+                                    <select id="options">
+                                        <option value="option1">S</option>
+                                        <option value="option2">M</option>
+                                        <option value="option3">L</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="size-container">
+                            <p class="header">Color</p>
+                            <ul>
+                                <li class="list">
+                                    <p>#1</p>
+                                    <select id="options">
+                                        <option value="option1">Color</option>
+                                        <option value="option2">black</option>
+                                        <option value="option3">White</option>
+                                    </select>
+                                </li>
+                                <li class="list">
+                                    <p>#2</p>
+                                    <select id="options">
+                                        <option value="option1">Color</option>
+                                        <option value="option2">black</option>
+                                        <option value="option3">White</option>
+                                    </select>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <br/>
+        </form>
+        <div class="end-cart">
+            <p class="prg">Free Delivery</p>
+            <p>Total: $18.00 USD</p>
+        </div>
+        <div class="button-container">
+            <button type="button">+Add to Cart</button>
+            <div class="bottom-prg-container">
+                <p>@ Powered by Pumper</p>
+            </div>
+            
+        </div>
+        
+        <script>
+            function toggleContainer(radio) {
+                document.querySelectorAll('.container').forEach(container => {
+                    container.style.display = 'none';
+                });
+
+                let container = radio.closest('.container-box').querySelector('.container');
+                container.style.display = 'block';
+            }
+        </script>
+
+        <style>
+            .container {
+                display: none;
+                padding: 10px;
+                border: 1px solid #ccc;
+                margin-top: 10px;
+            }
+        </style>
+    </div>
+</body>
+</html>
